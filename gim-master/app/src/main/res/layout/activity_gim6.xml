@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".gim6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="#131213"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                app:tint="#33FFFFFF" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center"
+                android:text="Verify your phone"
+                android:textColor="#33FFFFFF"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:gravity="center"
+                android:text="number"
+                android:textColor="#33FFFFFF"
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:text="We have sent you an SMS with a code to"
+                android:textColor="#338E8C8D"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:text="number +60 905070017"
+                android:textColor="#338E8C8D"
+                android:textSize="@dimen/_14sdp"
+                android:textStyle="bold" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="@dimen/_40sdp"
+                android:layout_marginRight="30dp"
+                app:cardBackgroundColor="#33454444"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp">
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_90sdp"
+                    android:background="#33000000" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginLeft="@dimen/_60sdp"
+                    android:layout_marginTop="@dimen/_7sdp"
+                    android:src="@drawable/ic_baseline_arrow_drop_down_24"
+                    app:tint="#33FFFFFF" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="+60"
+                    android:textColor="#33FFFFFF"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="450dp"
+                    android:gravity="center"
+                    android:text="  905070017"
+                    android:textColor="#33FFFFFF"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_390sdp"
+        android:elevation="@dimen/_5sdp"
+        android:orientation="vertical">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="@dimen/_40sdp"-->
+        <!--            android:src="@drawable/password" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:text="Your Password Has"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="@dimen/_20sdp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginLeft="@dimen/_30sdp"-->
+        <!--            android:layout_marginRight="@dimen/_30sdp"-->
+        <!--            android:text="Been Reset"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="@dimen/_20sdp"-->
+        <!--            android:textStyle="bold" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginLeft="@dimen/_30sdp"-->
+        <!--            android:layout_marginTop="@dimen/_14sdp"-->
+        <!--            android:layout_marginRight="@dimen/_30sdp"-->
+        <!--            android:text="your'|| shortly receive an email with a"-->
+        <!--            android:textColor="#878585"-->
+        <!--            android:textSize="@dimen/_14sdp" />-->
+
+        <!--        <TextView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginLeft="@dimen/_30sdp"-->
+        <!--            android:layout_marginRight="@dimen/_30sdp"-->
+        <!--            android:text="code to setup a new password"-->
+        <!--            android:textColor="#878585"-->
+        <!--            android:textSize="@dimen/_14sdp" />-->
+
+        <!--        <Button-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginTop="@dimen/_18sdp"-->
+        <!--            android:backgroundTint="#DC1256"-->
+        <!--            android:text="done" />-->
+
+
+    </LinearLayout>
+
+</LinearLayout>
